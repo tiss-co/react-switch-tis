@@ -1,0 +1,25 @@
+$font-family-medium: Helvetica-Neue-Medium;
+$font-light: #2a2a2a;
+$font-dark: #e5e6ec;
+
+.SwitchForm {
+  > span {
+    font-family: $font-family-medium !important;
+    font-size: var(--font-size-x-small) !important;
+    color: $font-light;
+  }
+
+  &.Dark {
+    > span {
+      color: $font-dark;
+    }
+  }
+}
+
+.Switch {
+  margin-right: 5px !important;
+  color: $font-light;
+  &.Dark {
+    color: $font-dark;
+  }
+}
