@@ -10,7 +10,7 @@ const App = () => {
         Switch Tis
       </div>
       <Switch
-        className='DateTimePicker'
+        className='Switch'
         onChange={(e, checked) => console.log(checked)}
         label='Wi-Fi'
         color='#0085fe'

@@ -27,7 +27,7 @@ import 'react-switch-tis/dist/index.css';
 const App = () => {
   return (
       <Switch
-        className='DateTimePicker'
+        className='Switch'
         onChange={(e, checked) => console.log(checked)}
         label='Wi-Fi'
         color='#0085fe'
