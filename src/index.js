@@ -34,8 +34,8 @@ export const Switch = ({
   if (!label)
     return (
       <CustomMaterialSwitch
-        className={classNames(css.Switch, {
-          [css.Dark]: darkMode
+        className={classNames(css.Switch_SwitchTis, {
+          [css.Dark_SwitchTis]: darkMode
         }, className)}
         defaultChecked={defaultChecked}
         value={checked}
@@ -46,13 +46,13 @@ export const Switch = ({
 
   return (
     <FormControlLabel
-      className={classNames(css.SwitchForm, {
-        [css.Dark]: darkMode
+      className={classNames(css.SwitchForm_SwitchTis, {
+        [css.Dark_SwitchTis]: darkMode
       }, className)}
       control={
         <CustomMaterialSwitch
-          className={classNames(css.Switch, {
-            [css.Dark]: darkMode
+          className={classNames(css.Switch_SwitchTis, {
+            [css.Dark_SwitchTis]: darkMode
           })}
           defaultChecked={defaultChecked}
           value={checked}

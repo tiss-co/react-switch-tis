@@ -2,24 +2,24 @@ $font-family-medium: Helvetica-Neue-Medium;
 $font-light: #2a2a2a;
 $font-dark: #e5e6ec;
 
-.SwitchForm {
+.SwitchForm_SwitchTis {
   > span {
     font-family: $font-family-medium !important;
     font-size: var(--font-size-x-small) !important;
     color: $font-light;
   }
 
-  &.Dark {
+  &.Dark_SwitchTis {
     > span {
       color: $font-dark;
     }
   }
 }
 
-.Switch {
+.Switch_SwitchTis {
   margin-right: 5px !important;
   color: $font-light;
-  &.Dark {
+  &.Dark_SwitchTis {
     color: $font-dark;
   }
 }
