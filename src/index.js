@@ -14,6 +14,7 @@ export const Switch = ({
   defaultChecked = false,
   small = true,
   darkMode = false,
+  disabled = false
 }) => {
   const size = small ? 'small' : 'medium';
 
@@ -58,6 +59,7 @@ export const Switch = ({
           value={checked}
           size={size}
           onChange={onChange}
+          disabled={disabled}
         />
       }
       label={label}
@@ -84,4 +86,5 @@ Switch.propTypes = {
   defaultChecked: PropTypes.bool,
   small: PropTypes.bool,
   darkMode: PropTypes.bool,
+  disabled: PropTypes.bool
 };

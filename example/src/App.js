@@ -18,6 +18,7 @@ const App = () => {
         labelPosition={labelPosition.start}
         checked={false}
         darkMode={false}
+        disabled={false}
       />
     </div>
   );
