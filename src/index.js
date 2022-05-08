@@ -14,7 +14,8 @@ export const Switch = ({
   defaultChecked = false,
   small = true,
   darkMode = false,
-  disabled = false
+  disabled = false,
+  id,
 }) => {
   const size = small ? 'small' : 'medium';
 
@@ -47,6 +48,7 @@ export const Switch = ({
 
   return (
     <FormControlLabel
+      id={id}
       className={classNames(css.SwitchForm_SwitchTis, {
         [css.Dark_SwitchTis]: darkMode
       }, className)}
@@ -86,5 +88,6 @@ Switch.propTypes = {
   defaultChecked: PropTypes.bool,
   small: PropTypes.bool,
   darkMode: PropTypes.bool,
-  disabled: PropTypes.bool
+  disabled: PropTypes.bool,
+  id: PropTypes.string
 };
